@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="20"
+        android1:layout_gravity="top"
+        android:src="@drawable/finalogo" />
+
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="30" >
+
+        <RadioButton
+            android:id="@+id/radioCalib"
+            android1:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="50"
+            android:text="@string/Calibrate"
+            android:textSize="30sp"
+            android1:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioCompare"
+            android1:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="50"
+            android:text="@string/Compare" 
+            android:textSize="30sp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtArduino"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_weight="20"
+        android1:text="" />
+
+    <Button
+        android1:id="@+id/btnOn"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_weight="5"
+        android1:text="@string/btn_Recieve" 
+        android1:textSize="30sp"/>
+
+</LinearLayout>
+

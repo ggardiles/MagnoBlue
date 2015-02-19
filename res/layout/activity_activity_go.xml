@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:background="@color/GreenGo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="course.labs.intentslab.mybrowser.ActivityGo"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+        	android:layout_weight="15"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+        	android:layout_weight="75"
+            android:layout_gravity="top"
+            android:src="@drawable/gobutton" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+        	android:layout_weight="10"
+            android:text="@string/ActivityBack"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</FrameLayout>
+
